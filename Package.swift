@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SharedKitTarget",
-            url: "https://artifactory.vivino.com/artifactory/vivino-android/kmp-shared/1.0.1/sharedKit.xcframework.zip",
-            checksum: "c29bea49a3003aaac6d397d07d10d97b5133567511f088ac46f05c1870cbf579"
+            url: "https://github.com/Vivino/vivino-shared-spm/releases/download/1.0.2/sharedKit.xcframework.zip",
+            checksum: "c1138001c2b92831c79e5673204c699f3febbdf9bd92a3ae5c64e31be0e43dd1"
         ),
     ]
 )
